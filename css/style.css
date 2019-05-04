@@ -11,17 +11,83 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #7ea4b3;
+    background-color: #7a92ad;
     display: flex;
     min-height: 100vh;
     align-items: center;
 
 
     background-image: 
-    radial-gradient(circle at 100% 150%, #3b4447 24%, #475d66 25%, #738b94 28%, #8fa8b3 29%, #628b9b 36%, #9fcee0 36%, #678591 40%, transparent 40%, transparent),
-    radial-gradient(circle at 100% 150%, #3b4447 24%, #475d66 25%, #738b94 28%, #8fa8b3 29%, #628b9b 36%, #9fcee0 36%, #678591 40%, transparent 40%, transparent),
-    radial-gradient(circle at 100% 150%, #6b6e6e 24%, #06202b 25%, #deebf0 28%, #0fabee 29%, #031922 36%, #51707c 36%, #ccd8dd 40%, transparent 40%, transparent),
-    radial-gradient(circle at 100% 150%, #6b6e6e 24%, #06202b 25%, #deebf0 28%, #0fabee 29%, #031922 36%, #51707c 36%, #ccd8dd 40%, transparent 40%, transparent),
-    radial-gradient(circle at 100% 150%, #6b6e6e 24%, #06202b 25%, #deebf0 28%, #0fabee 29%, #031922 36%, #51707c 36%, #ccd8dd 40%, transparent 40%, transparent);
+    radial-gradient(circle at 100% 150%, #3b4447c2 24%, #475d66bd 25%, #738b94be 28%, #8fa8b3c2 29%, #628b9bc2 36%, #9fcde091 36%, #6785919a 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0% 150%, #3b4447c2 24%, #475d66bd 25%, #738b94be 28%, #8fa8b3c2 29%, #628b9bc2 36%, #9fcde091 36%, #6785919a 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, rgb(66, 176, 210) 10%, rgb(59, 151, 193) 11%, rgb(59, 162, 193) 23%, rgb(140, 162, 168) 24%, rgb(136, 149, 165) 30%, rgb(71, 117, 155) 31%, rgb(59, 155, 193) 43%, rgb(66, 145, 210) 44%, rgb(56, 105, 124) 50%, rgb(48, 113, 139) 51%, rgb(59, 155, 193) 63%, rgba(66, 176, 210, 0.767) 64%, rgb(117, 172, 182) 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, rgb(138, 83, 83) 5%, rgb(114, 79, 79) 6%, rgb(97, 56, 56) 15%, rgb(210, 107, 66) 16%, rgb(210, 184, 66) 20%, rgb(162, 178, 202) 21%, rgb(193, 146, 59) 30%, rgb(142, 161, 177) 31%, rgb(210, 152, 66) 35%, rgb(193, 119, 59) 36%, rgb(59, 139, 193) 45%, rgb(66, 176, 210) 46%, rgb(210, 160, 66) 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0    50%, rgb(138, 83, 83) 5%, rgb(114, 79, 79) 6%, rgb(97, 56, 56) 15%, rgb(210, 107, 66) 16%, rgb(210, 184, 66) 20%, rgb(162, 178, 202) 21%, rgb(193, 146, 59) 30%, rgb(142, 161, 177) 31%, rgb(210, 152, 66) 35%, rgb(193, 119, 59) 36%, rgb(59, 139, 193) 45%, rgb(66, 176, 210) 46%, rgb(210, 160, 66) 49%, transparent 50%, transparent);
+    background-size: 8rem 4rem;
 }
 
+.voiceinator {
+    padding: 2rem;
+    width: 50rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    position: relative;
+    background: whitesmoke;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 0 .4em .4em rgba(0, 0, 0, .2);
+}
+
+h1 {
+    width: calc(100% + 4rem);
+    margin: -2rem 0 2rem -2rem;
+    padding: .5rem;
+    background: rgba(255, 255, 182, 0.4);
+    border-bottom: .5rem solid rgb(68, 62, 40);
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: .1em .1em 0 #302d2321
+    
+}
+
+.voiceinator input,
+.voiceinator button,
+.voiceinator select,
+.voiceinator textarea {
+    width: 100%;
+    display: block;
+    margin: .8em 0;
+    padding: .8em;
+    border: 0;
+    font-size: 2rem;
+    background: #d8d8d8;
+    outline: 0;
+}
+
+textarea {
+    height: 20rem;
+}
+
+input[type="select"] {
+
+}
+
+.voiceinator button {
+    background: #5f1d1d;
+    color: whitesmoke;
+    width: 50%;
+    float: left;
+    margin-bottom: 0;
+    font-size: 2rem;
+    border-bottom: .3em solid rgb(187, 176, 138)
+}
+
+.voiceinator button:active {
+    top: 2px;
+}
+
+.voiceinator button:nth-of-type(1) {
+    margin-right: 2%;
+}
