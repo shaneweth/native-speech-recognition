@@ -70,14 +70,10 @@ textarea {
     height: 20rem;
 }
 
-input[type="select"] {
-
-}
-
 .voiceinator button {
     background: #5f1d1d;
     color: whitesmoke;
-    width: 50%;
+    width: 49%;
     float: left;
     margin-bottom: 0;
     font-size: 2rem;
