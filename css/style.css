@@ -10,7 +10,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     background-color: #7a92ad;
     display: flex;
     min-height: 100vh;
@@ -47,7 +47,7 @@ h1 {
     text-align: center;
     font-size: 5rem;
     font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     text-shadow: 2px 2px 0 #1f1d162a
     
 }
@@ -61,6 +61,7 @@ h1 {
     margin: .8em 0;
     padding: .8em;
     border: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 2rem;
     background: #d8d8d8;
     outline: 0;
@@ -78,6 +79,10 @@ textarea {
     margin-bottom: 0;
     font-size: 2rem;
     border-bottom: .3em solid rgb(187, 176, 138)
+}
+
+.voiceinator button:hover {
+    cursor: pointer;
 }
 
 .voiceinator button:active {
